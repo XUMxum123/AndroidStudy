@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="background">#2c323b</color>
+    <color name="kickoff_bar">#3a414a</color>
+    <color name="white">#FFFFFF</color>
+    <color name="textColorBlack">#000000</color>
+    <color name="red">#c60b1e</color>
+    <color name="background_blue">#2c323b</color>
+    <color name="searching_for_tv_color">#546476</color>
+    <color name="pair_with_color">#5c6370</color>
+    <color name="background_share_text">#323943</color>
+    <color name="background_carousel_item">#3a424c</color>
+    <color name="light_grey">#4e545f</color>
+</resources>

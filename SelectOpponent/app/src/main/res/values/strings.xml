@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">SelectOpponentDemo</string>
+
+    <string name="select_opponent">Select opponent</string>
+    <string name="kick_off">Kick off!!</string>
+    <string name="ambilight_tv_pairing">Ambilight TV pairing</string>
+    <string name="pair_with_tv">Connect with an Ambilight TV to start your experience</string>
+    <string name="searching_tvs">Searching for TVs...</string>
+    <string name="no_tvs_found">There are no Ambilight TVs available to connect with</string>
+    <string name="retry">Retry</string>
+    <string name="no_tvs_found_title">TV not found</string>
+    <string name="no_wifi">Check your Wi-Fi connection and try again</string>
+    <string name="no_wifi_title">Wi-Fi not found</string>
+    <string name="share_photo">Share your image</string>
+    <string name="share">Share</string>
+    <string name="default_share_text">Check out my Ambilight TV setup! #Ambilightwave</string>
+    <string name="photo_not_found">Image not found</string>
+    <string name="take_picture">Take photo</string>
+    <string name="choose_picture">Choose image</string>
+    <string name="cancel">Cancel</string>
+    <string name="could_not_load_image">Could not load image</string>
+    <string name="your_image">Your image</string>
+    <string name="no_opponent">No opponent</string>
+    <string name="add_your_image">Add your image</string>
+    <string name="select_tv">Select TV</string>
+    <string name="multiple_tv_text">Select a TV from the list. If another TV is using the Ambilight app, it will disconnect first so the new TV can connect. No TV data will be lost.</string>
+    <string name="skip_tutorial">Skip introduction    &gt;</string>
+    <string name="replay_tutorial">Replay app Introduction</string>
+    <string name="title_activity_selection_screen">SelectionScreenActivity</string>
+    <string name="title_activity_interaction_screen">InteractionScreenActivity</string>
+    <string name="title_activity_animation_screen">AnimationScreenActivity</string>
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+    <string name="title_activity_interactivity_screen">InteractivityScreenActivity</string>
+    <string name="app_id">228623140668320</string>
+
+    <string name="not_supported_tv_found_title">Notice</string>
+    <string name="not_supported_tv_found_msg">The app will not work with the current software of your TV.</string>
+
+    <string name="close_app_message">Are you sure you want to stop the wave your flag app?</string>
+    <string name="stop_experience_message">Are you sure you want to stop the Wave your flag experience?\n\nTV mode will activate</string>
+    <string name="refresh_tv_list">Refresh TV list</string>
+    <string name="tv_settings">TV Settings</string>
+    <string name="tv_follows_app">TV follows app</string>
+    <string name="connectionlost_title">TV Not Found</string>
+    <string name="connectionlost_content">The TV must be switched on and connected to a network</string>
+</resources>

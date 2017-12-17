@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootSelectionLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal|bottom">
+    <com.example.xum.tasks.SelectionLayout
+        android:id="@+id/root"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@android:color/transparent">
+        <ViewFlipper
+            android:id="@+id/content"
+            android:tag="1"
+            android:layout_width="230dp"
+
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:id="@+id/firstLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/background_carousel_item"
+                android:orientation="vertical" >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center|bottom"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="20dp"
+                        android:textSize="18sp"
+                        android:textColor="@color/light_grey"
+                        android:textAlignment="center" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/secondLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#0030ff"
+                android:orientation="vertical" >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:paddingTop="10dp"
+                        android:textSize="22sp"
+                        android:textColor="@color/white"
+                        android:textAlignment="center" />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+        </ViewFlipper>
+    </com.example.xum.tasks.SelectionLayout >
+</LinearLayout>
